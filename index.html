@@ -31,7 +31,7 @@
           <div class="card">
             <h3 class="card-title">flexbox row</h3>
             <p class="card-text">
-                Use these three properties to create a Flexbox row layout.
+              Use these three properties to create a Flexbox row layout.
             </p>
             <pre class="code">
                 .row {
@@ -42,117 +42,150 @@
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
+            <h3 class="card-title">flexbox column</h3>
+            <p class="card-text">Use this to create a Flexbox column layout.</p>
             <pre class="code">
-
+                .column {
+                    display: flex;
+                    flex-direction: column;
+                  }
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Center content</h3>
             <p class="card-text">
-
+              Use this to perfectly center elements on the page.
             </p>
             <pre class="code">
-
-            </pre>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h2>Flex</h2>
-        <div class="card-wrapper">
-          <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
-            <pre class="code">
-
-            </pre>
-          </div>
-          <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
-            <pre class="code">
-
-            </pre>
-          </div>
-          <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
-            <pre class="code">
-
+                .center {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
             </pre>
           </div>
         </div>
       </section>
       <section>
-        <h2>Flex</h2>
+        <h2>Grid</h2>
         <div class="card-wrapper">
           <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
+            <h3 class="card-title">CSS grid layout</h3>
+            <p class="card-text">Build a 12-column layout using CSS Grid.</p>
             <pre class="code">
-
+                .grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns:
+                     repeat(12, 1fr);
+                  }
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
+            <h3 class="card-title">Define Grid</h3>
+            <p class="card-text">Defines the rows and columns of the grid.</p>
             <pre class="code">
-
+                .grid {
+                    display: grid;
+                    grid-template-columns: 12px 12px 12px;
+                    grid-template-rows: 12px 12px 12px;
+                  }
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Centered Grid</h3>
             <p class="card-text">
-
+              Builds a CSS Grid in which elements are centered.
             </p>
             <pre class="code">
-
+                .grid {
+                    display: grid;
+                    grid-template-columns:
+                    repeat(12, 1fr);
+                    justify-items: center;
+                    align-items: center;
+                  }
             </pre>
           </div>
         </div>
       </section>
       <section>
-        <h2>Flex</h2>
+        <h2>Linear Gradients</h2>
         <div class="card-wrapper">
           <div class="card">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">Linear gradient</h3>
             <p class="card-text">
-
+              This will create a background linear gradient from top to bottom.
             </p>
             <pre class="code">
-
+                .linear-gradient-background {
+                    background-image: linear-gradient(
+                     rgba(232, 102, 236, 0.3) 0%,
+                     rgba(232, 102, 236, 0.6) 100%
+                    );
+                  }
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
-            <p class="card-text">
-
-            </p>
+            <h3 class="card-title">Radial Gradient</h3>
+            <p class="card-text">This will create a radial gradient.</p>
             <pre class="code">
-
+                .radial-gradient {
+                    background: radial-gradient(
+                     #e66465, 
+                     #9198e5
+                    );
+                  }
             </pre>
           </div>
           <div class="card">
-            <h3 class="card-title"></h3>
+            <h3 class="card-title">conic gradient</h3>
+            <p class="card-text">This will create a conic gradient.</p>
+            <pre class="code">
+                .conic-gradient {
+                    background: conic-gradient(
+                      red, orange, yellow, green, blue
+                    );
+                  }
+            </pre>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Shadows</h2>
+        <div class="card-wrapper">
+          <div class="card">
+            <h3 class="card-title">Box Shadow</h3>
+            <p class="card-text">This will create a simple box-shadow.</p>
+            <pre class="code">
+                .box-shadow {
+                    box-shadow: 10px 5px 5px red;
+                  }
+            </pre>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Inset Box shadow</h3>
             <p class="card-text">
-
+              This will create a box-shadow on the inside.
             </p>
             <pre class="code">
-
+                .inset-box-shadow {
+                    box-shadow: inset 5em 1em gold;
+                  }
+            </pre>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Drop Shadow</h3>
+            <p class="card-text">
+              This will create a drop-shadow, following the shape of an image
+              rather than the box itself.
+            </p>
+            <pre class="code">
+                .drop-shadow {
+                    filter: drop-shadow(
+                     30px 10px 4px #4444dd
+                    );
+                  }
             </pre>
           </div>
         </div>
