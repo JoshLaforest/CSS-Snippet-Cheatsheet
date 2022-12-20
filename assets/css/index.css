@@ -1,2 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@700&display=swap');
 
+:root {
+    --accent: #00F2DE;
+    --light-bg-color: #002925;
+    --bg-color: #001413;
+    --text-color: #A7D8D4;
+    --mb-60: 3.75em;
+}
