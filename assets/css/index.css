@@ -117,3 +117,13 @@ h3 {
 .card-text {
     margin-bottom: .5em;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    padding: 1em 0.5em;
+    font-weight: bold;
+    font-size: clamp(1rem, 0.7917rem + 0.9259vw, 1.625rem);
+}
