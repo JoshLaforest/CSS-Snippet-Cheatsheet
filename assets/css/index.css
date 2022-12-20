@@ -30,6 +30,7 @@ h1 {
 
 h2 {
   font-size: clamp(1.8rem, 1.7333rem + 0.2963vw, 2rem);
+  margin-bottom: 2em;
 }
 
 h3 {
