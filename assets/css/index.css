@@ -1,42 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro:wght@400;700&display=swap");
 
 :root {
-    --accent: #00F2DE;
-    --light-bg-color: #002925;
-    --bg-color: #001413;
-    --text-color: #A7D8D4;
-    --mb-60: 3.75em;
+  --accent: #00f2de;
+  --light-bg-color: #002925;
+  --bg-color: #001413;
+  --text-color: #a7d8d4;
+  --mb-60: 3.75em;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
-h1, h2, h3, pre, .footer {
-    font-family: 'Source Code Pro', monospace;
-    color: var(--accent);
+h1,
+h2,
+h3,
+pre,
+.footer {
+  font-family: "Source Code Pro", monospace;
+  color: var(--accent);
 }
 
 h1 {
-    font-size: clamp(2rem, 1.6250rem + 1.6667vw, 3.125rem);
+  font-size: clamp(2rem, 1.625rem + 1.6667vw, 3.125rem);
+  text-align: center;
 }
 
 h2 {
-    font-size: clamp(1.8rem, 1.7333rem + 0.2963vw, 2rem);
+  font-size: clamp(1.8rem, 1.7333rem + 0.2963vw, 2rem);
 }
 
 h3 {
-    font-size: clamp(1.2rem, 1.1417rem + 0.2593vw, 1.375rem);
+  font-size: clamp(1.2rem, 1.1417rem + 0.2593vw, 1.375rem);
 }
 
 .container {
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
 }
 
 .margin-bottom {
-    margin-bottom: 3.75em;
+  margin-bottom: 3.75em;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 3.75em 1em;
+}
+
+.hero-subtext {
+    max-width: 650px;
+    text-align: center;
+    margin-bottom: 2em;
 }
