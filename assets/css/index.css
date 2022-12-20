@@ -31,3 +31,8 @@ h3 {
     font-size: clamp(1.2rem, 1.1417rem + 0.2593vw, 1.375rem);
 }
 
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
