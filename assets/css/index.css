@@ -10,10 +10,13 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
-h1, h2, h3, pre {
+h1, h2, h3, pre, .footer {
     font-family: 'Source Code Pro', monospace;
+    color: var(--accent);
 }
 
 h1 {
@@ -27,3 +30,4 @@ h2 {
 h3 {
     font-size: clamp(1.2rem, 1.1417rem + 0.2593vw, 1.375rem);
 }
+
