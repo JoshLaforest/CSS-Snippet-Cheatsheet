@@ -111,6 +111,7 @@ h3 {
     padding: .5em;
     margin-top: -2em;
     margin-bottom: .5em;
+    box-shadow: 0 0 0 6px var(--bg-color);
 }
 
 .card-text {
