@@ -22,6 +22,13 @@ pre,
   color: var(--accent);
 }
 
+pre {
+    font-size: 14px;
+    background-color: var(--light-bg-color);
+    padding: .5em;
+    border-radius: .5em;
+}
+
 h1 {
   font-size: clamp(2rem, 1.625rem + 1.6667vw, 3.125rem);
   text-align: center;
@@ -29,7 +36,7 @@ h1 {
 
 h2 {
   font-size: clamp(1.8rem, 1.7333rem + 0.2963vw, 2rem);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -40,6 +47,7 @@ h3 {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+  padding: 0 .5em;
 }
 
 .margin-bottom {
@@ -79,3 +87,18 @@ h3 {
     border: solid 1px var(--accent);
     border-radius: 0.625em;
 }
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.card {
+    position: relative;
+    border: solid 1px var(--accent);
+    border-radius: .625em;
+    padding: 1em;
+}
+
