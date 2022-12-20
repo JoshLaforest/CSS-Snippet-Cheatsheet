@@ -91,6 +91,7 @@ h3 {
 .card-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 3em;
     margin-bottom: 1.5em;
 }
@@ -128,12 +129,24 @@ h3 {
     font-size: clamp(1rem, 0.7917rem + 0.9259vw, 1.625rem);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
     .card-wrapper {
         flex-direction: row;
+        justify-content: space-between;
+        gap: 3em 1em;
     }
 
     .card {
-        width: 40%;
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card-wrapper {
+        gap: 3em 0;
+    }
+
+    .card {
+        width: 30%;
     }
 }
