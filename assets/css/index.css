@@ -25,7 +25,7 @@ pre,
 pre {
     font-size: 14px;
     background-color: var(--light-bg-color);
-    padding: .5em;
+    padding: 1em .5em;
     border-radius: .5em;
 }
 
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   font-size: clamp(1.8rem, 1.7333rem + 0.2963vw, 2rem);
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 h3 {
@@ -91,7 +91,7 @@ h3 {
 .card-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 3em;
     margin-bottom: 1.5em;
 }
 
@@ -102,3 +102,17 @@ h3 {
     padding: 1em;
 }
 
+.card-title {
+    text-transform: capitalize;
+    background-color: var(--light-bg-color);
+    border: solid 1px var(--accent);
+    border-radius: .5em;
+    text-align: center;
+    padding: .5em;
+    margin-top: -2em;
+    margin-bottom: .5em;
+}
+
+.card-text {
+    margin-bottom: .5em;
+}
