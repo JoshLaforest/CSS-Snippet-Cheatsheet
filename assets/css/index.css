@@ -5,7 +5,6 @@
   --light-bg-color: #002925;
   --bg-color: #001413;
   --text-color: #a7d8d4;
-  --mb-60: 3.75em;
 }
 
 body {
@@ -60,4 +59,23 @@ h3 {
     max-width: 650px;
     text-align: center;
     margin-bottom: 2em;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5em;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--light-bg-color);
+    padding: 0.5em 1.25em;
+    border: solid 1px var(--accent);
+    border-radius: 0.625em;
 }
