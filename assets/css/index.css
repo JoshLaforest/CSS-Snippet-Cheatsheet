@@ -127,3 +127,13 @@ h3 {
     font-weight: bold;
     font-size: clamp(1rem, 0.7917rem + 0.9259vw, 1.625rem);
 }
+
+@media screen and (min-width: 768px) {
+    .card-wrapper {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 40%;
+    }
+}
